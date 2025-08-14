@@ -232,6 +232,10 @@ button:hover {
 /*  Features  */
 
 /*  Plan  */
+.plan {
+  background-color: #fff;
+  padding: 54px 0 130px;
+}
 
 .plan__title {
   font-weight: 500;
