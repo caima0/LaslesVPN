@@ -55,6 +55,42 @@ button:hover {
   min-width: 250px;
 }
 
+.btn_outline {
+  background-color: transparent;
+  border: 2px solid #f53838;
+  color: #f53838;
+  box-shadow: none;
+}
+
+.btn_outline:hover {
+  background-color: #f53838;
+  color: #fff;
+  box-shadow: 0px 18px 15px -5px rgb(245, 56, 56, 0.35);
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  max-width: 555px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.bold-text {
+  font-weight: 500;
+}
+
 /*  Nav  */
 
 .nav {
@@ -232,30 +268,92 @@ button:hover {
 /*  Features  */
 
 /*  Plan  */
-.plan {
-  background-color: #fff;
-  padding: 54px 0 130px;
+.plans {
+  background-color: #f8f8f8;
+  padding-top: 80px;
+  padding-bottom: 74px;
 }
 
-.plan__title {
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 50px;
-  color: #0b132a;
+.plans__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-item {
+  padding: 80px 76px 50px;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-item__icon {
+  margin-bottom: 30px;
+}
+
+.plan-item__title {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+}
+
+.plan-item__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+  margin-bottom: 50px;
+}
+
+.plan-item__feature {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.plan-item__price {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
   padding-bottom: 20px;
 }
 
-.plan__desc {
+.plan-item__duration {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
   color: #4f5665;
+}
 
-  display: flex;
-  justify-content: center;
+.plan-item__btn {
+  height: 44px;
+  padding: 0 64px;
+  border-radius: 44px;
 }
 
 /*  Plan  */
+
+/*  Network  */
+.network__map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.network__ref {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+}
+
+/*  Network  */
