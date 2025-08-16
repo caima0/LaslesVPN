@@ -342,6 +342,12 @@ button:hover {
 /*  Plan  */
 
 /*  Network  */
+.network {
+  background-color: #f8f8f8;
+  padding-top: 80px;
+  padding-bottom: 74px;
+}
+
 .network__map {
   display: flex;
   justify-content: center;
